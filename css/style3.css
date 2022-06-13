@@ -1,0 +1,433 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+header {
+    background-color: rgb(136, 135, 135);
+    height: 213px;
+    width: 103%;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: relative; 
+}
+
+.section_logo{
+   /*  background-color: aqua;  */
+    /* font-size: 2vmax; */
+    width: 25vmax;
+    height: 11vmax;
+    border-radius: 125px;
+    display: flex;
+    top: 10%;
+    left: 5%;
+    right: -1%;
+    padding: 1%;
+    margin-left: -1%;
+    /* gap: 30px 30px; */
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+
+}
+
+header section img{
+    border-radius: 42px;
+}
+
+.banner_tela_pc{
+    visibility: visible;
+        background-color: black;
+        height: 340px;
+        width: 100%;
+        margin: 0%;
+        top: 100%;
+        left: 0%;
+        right: 0%;
+        position: absolute;
+        border-radius: 0%;
+}
+
+header h1{
+    position: relative;
+
+
+ }
+header nav  {
+    position: relative;
+    display: flex;
+    width: 25vmax;
+    height: 8vmax;
+    left: 56%;
+    top: -1%;
+    bottom: 0%;
+    /* background-color: blueviolet; */
+    gap: 51px 17px;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+}
+header a{ 
+    font-size: 219%;
+    display: flex;
+    position: relative;
+    top: 51%;
+    left: -14%;
+    background-color: rgb(253, 13, 13);
+    box-sizing: border-box;
+    border-radius: 39px;
+    justify-content: center;
+    gap: 24px -1px;
+    padding: 8%;
+  
+} 
+
+main h1 {        
+    position: absolute;
+    top: 87%;
+    font-size: 3vw;
+    padding: 5%;
+}
+main section{
+  
+
+
+
+}
+main div {
+   
+    width: 25%;
+    display: flex;
+    height: 65%;
+   /*  background-color: black; */
+    position: absolute;
+    top: 117%;
+    border-radius: 10px;
+    flex-direction: row;
+    gap: 7px 23px;
+    left: 8%;
+ 
+
+
+}
+main .div_01{
+
+
+
+
+}
+
+main .div_02{
+
+    left: 41%;
+}
+
+main .div_03{
+    left: 75%;
+
+
+
+}
+
+main iframe{
+    position: absolute;
+    top: 200%;
+    right: -1%;
+    left: 24%;
+    bottom: 7%;
+
+}
+
+
+footer{
+    position: absolute;
+    background-color: blue;
+    width: 102%;
+    height: 56vh;
+    bottom: 12%;
+    top: 300%;
+
+}
+footer h1 {
+    font-size: 3vw;
+padding: 0% 6% 4% 12%;
+
+}
+footer img{
+    width: 4%;
+height: 55%;
+margin: -4% 45% 7% 39%;
+position: relative;
+justify-content: space-around;
+border-radius: 54%;
+
+}
+
+.footer_img_github{
+   
+    position: absolute;
+    left: 56%;
+    right: -11%;
+    top: 22%;
+    bottom: 0%;
+    margin: 1%;
+    z-index: 0;
+    width: 4%;
+    height: 12%;
+    border-radius: 44%;
+    
+
+
+    
+}
+
+footer p{
+    font-size: 100%;
+    margin: -6% 43% 10% 39%;
+
+}
+.footer_p_github{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    right: 0%;
+    font-size: 100%;
+    
+
+
+}
+@media  (max-width: 425px) {
+
+    html{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;}
+    
+    
+    header {
+        background-color: rgb(136, 135, 135);
+        padding: 27px;
+        margin-top: 0%;
+        height: 27%;
+        width: 182%;
+        /* top: 390%; */
+        position: relative;
+       
+       
+      
+    }
+    .section_logo{
+    /*     background-color: aqua; */
+    /* font-size: 2vmax; */
+    width: 14vmax;
+    height: 17vmax;
+    /* border-radius: 71px; */
+    display: flex;
+    top: 5%;
+    left: 43%;
+    right: -3%;
+    padding: 0%;
+    margin-left: 0%;
+    /* gap: 30px 30px; */
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+      
+    
+    
+    }
+    header section img {
+        border-radius: 28px;
+    }
+    
+     header h1{
+        
+        position: relative;
+    
+    
+     }
+    header nav  {
+        position: relative;
+        display: flex;
+        width: 33vmax;
+        height: 65vmax;
+        left: 39%;
+        top: 8%;
+        /* background-color: blueviolet; */
+        gap: 51px 17px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header a{ 
+        font-size: 136%;
+    display: flex;
+    position: relative;
+    background-color: rgb(253, 13, 13);
+    box-sizing: border-box;
+    border-radius: 35px;
+    justify-content: center;
+    gap: 27px 18px;
+    padding: 7%;
+    top: 15%;
+      
+    } 
+    main h1 {
+        font-size: 7vw;
+        padding: 0%;
+        position: absolute;
+        top: 119%;
+        left: 103%;
+        margin: -47%;
+}
+      
+    
+    
+    main div {
+        background-color: black;
+        width: 80%;
+        height: 40vh;
+        left: 40%;
+        margin: 12% 4% 5% 11%;
+        justify-content: space-around;
+        border-radius: 10%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    main .div_01{
+        display: flex;
+        flex-direction: column;
+        right: 0%;
+        left: 30%;
+        top: 83%;
+        bottom: 0%;
+
+
+    }
+    
+    main .div_02{
+        display: flex;
+        flex-direction: column;
+        right: 0%;
+        left: 40%;
+        top: 228%;
+        bottom: 0%;
+    
+    }
+    
+    main .div_03{
+       
+            display: flex;
+            flex-direction: column;
+            left: 76%;
+            right: 0%;
+            left: 40%;
+            top: 335%;
+            bottom: 0%;
+
+    
+    
+    
+    }
+
+    main iframe{
+
+        position: absolute;
+        top: 443%;
+        right: -4%;
+        left: 10%;
+        bottom: 7%;
+
+    }
+
+    footer{
+        background-color: blue;
+        width: 193%;
+        height: 78vh;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        left: 1%;
+        top: 539%;
+        bottom: 0%;
+    
+    }
+    footer h1 {
+        font-size: 12vw;
+        padding: 2% 9% 9% 29%;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
+    
+    }
+    footer img{
+        width: 7%;
+        height: 46%;
+        margin: -9% 44% 5% 43%;
+        top: 6%;
+        right: 10%;
+        left: -2%;
+        bottom: 10%;
+        position: relative;
+        justify-content: space-around;
+        border-radius: 53%;
+    
+    }
+    footer p{
+        font-size: 262%;
+        margin: 0% 40% 9% 38%;
+        top: -8%;
+        right: 2%;
+        left: -2%;
+        bottom: 0%;
+        position: relative;
+    
+    }
+
+    .footer_img_github{
+        width: 7%;
+        height: 46%;
+        margin: -11% 40% 8% 36%;
+        top: 3%;
+        right: 0%;
+        left: 6%;
+        bottom: 4%;
+        position: relative;
+
+
+    }
+
+    .footer_p_github{
+        font-size: 262%;
+        margin: 0% 40% 9% 38%;
+        top: -14%;
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
+        position: relative;
+
+    }
+
+
+
+    .banner_tela_pc{
+        visibility: hidden;
+    }
+}
